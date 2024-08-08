@@ -1,0 +1,156 @@
+body {
+    font-family: 'Road Race Stamp', sans-serif;
+    background-color: #f0e5c9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #050705;
+    margin-bottom: 1.5rem;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    height: auto;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.btn-primary {
+    background-color: #ffcc00;
+    border: none;
+    color: #333;
+}
+
+.btn-success {
+    background-color: #bce3c5;
+    border: none;
+    color: #333;
+}
+
+footer {
+    background-color: #bce3c5;
+    color: #333;
+}
+
+.logo-img {
+    max-width: 400px; /* Ajusta el valor según el tamaño deseado */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.campo-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
+    align-items: center;
+    margin: 20px 0;
+}
+
+.imagen-campo {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.texto-campo {
+    flex: 1;
+    color: #333;
+}
+
+.texto-campo p, .texto-campo ul {
+    margin-bottom: 1rem;
+}
+
+.texto-campo ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.img-fluid {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    background: transparent;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos responsivos */
+@media (max-width: 576px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .abeja-img {
+        width: 50px;
+    }
+
+    .campo-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagen-campo {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    bottom: 40px;
+    right: 40px;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 999;
+}
+
+.fa-whatsapp {
+    font-size: 60px;
+}
+
+.float:hover{
+    background-color: #25d366;
+}
