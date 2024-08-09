@@ -124,6 +124,9 @@ footer {
     .card {
         width: 100%;
     }
+    .logo-img {
+        max-width: 80%; /* Se ajusta el tamaño del logo para pantallas pequeñas */
+    }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
